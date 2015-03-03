@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monsters>
+	<monster slot="1" empty="0">
+		<name></name>
+		<type></type>
+		<hp></hp>
+		<str></str>
+		<def></def>
+		<spd></spd>
+		<ele></ele>
+		<exp></exp>
+		<lvl></lvl>
+		<slot></slot>
+		<imagePath></imagePath>
+	</monster>
+	<monster slot="2" empty="0">
+		<name></name>
+		<type></type>
+		<hp></hp>
+		<str></str>
+		<def></def>
+		<spd></spd>
+		<ele></ele>
+		<exp></exp>
+		<lvl></lvl>
+		<slot></slot>
+		<imagePath></imagePath>
+	</monster>
+</monsters>

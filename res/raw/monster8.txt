@@ -1,0 +1,11 @@
+a
+8
+44
+45
+55
+43
+3
+0
+1
+0
+sprites/ElecDef.png

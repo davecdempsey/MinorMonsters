@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cards>
+    <card slot = "1" empty = "0">
+        <type></type>
+        <ele></ele>
+        <pwr></pwr>
+        <element></element>
+        <name></name>
+    </card>
+    <card slot = "2" empty = "0">
+        <type></type>
+        <ele></ele>
+        <pwr></pwr>
+        <element></element>
+        <name></name>
+    </card>
+    <card slot = "3" empty = "0">
+        <type></type>
+        <ele></ele>
+        <pwr></pwr>
+        <element></element>
+        <name></name>
+    </card>
+    <card slot = "4" empty = "0">
+        <type></type>
+        <ele></ele>
+        <pwr></pwr>
+        <element></element>
+        <name></name>
+    </card>
+    <card slot = "5" empty = "0">
+        <type></type>
+        <ele></ele>
+        <pwr></pwr>
+        <element></element>
+        <name></name>
+    </card>
+    <card slot = "6" empty = "0">
+        <type></type>
+        <ele></ele>
+        <pwr></pwr>
+        <element></element>
+        <name></name>
+    </card>
+</cards>

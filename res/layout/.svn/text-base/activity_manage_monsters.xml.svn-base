@@ -1,0 +1,128 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/card1_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/card1_text" />
+
+    <Button
+        android:id="@+id/card2_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/card1_btn"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="32dp"
+        android:text="@string/card2_text" />
+
+    <TextView
+        android:id="@+id/name_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/card1_btn"
+        android:layout_below="@+id/card1_btn"
+        android:layout_marginTop="31dp"
+        android:text="@string/name_text"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/type_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:text="@string/type_text"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/hp_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/type_text"
+        android:layout_below="@+id/type_text"
+        android:layout_marginTop="16dp"
+        android:text="@string/hp_text"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/str_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/hp_text"
+        android:layout_below="@+id/hp_text"
+        android:layout_marginTop="20dp"
+        android:text="@string/str_text"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/def_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/str_text"
+        android:layout_below="@+id/str_text"
+        android:layout_marginTop="15dp"
+        android:text="@string/def_text"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/lvl_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/str_text"
+        android:layout_alignRight="@+id/card2_btn"
+        android:layout_marginRight="56dp"
+        android:text="@string/lvl_text"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/exp_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/def_text"
+        android:layout_alignLeft="@+id/lvl_text"
+        android:text="@string/exp_text"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/spd_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/def_text"
+        android:layout_alignBottom="@+id/def_text"
+        android:layout_alignLeft="@+id/exp_text"
+        android:text="@string/spd_text"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/save_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/card1_btn"
+        android:text="@string/save_text" />
+
+    <Button
+        android:id="@+id/delete_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/card2_btn"
+        android:text="@string/delete_text" />
+
+    <TextView
+        android:id="@+id/element_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/type_text"
+        android:layout_alignLeft="@+id/name_text"
+        android:layout_marginBottom="36dp"
+        android:text="@string/element_text"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout>

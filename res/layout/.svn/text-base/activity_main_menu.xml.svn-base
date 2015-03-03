@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/logoImage"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/unccmlogo" />
+
+    <Button
+        android:id="@+id/scanButton"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/logoImage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:text="@string/scanButtonText" />
+
+    <Button
+        android:id="@+id/battleButton"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/scanButton"
+        android:layout_below="@+id/scanButton"
+        android:layout_marginTop="18dp"
+        android:text="@string/multiplayer_label" />
+
+    <Button
+        android:id="@+id/exitButton"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/battleButton"
+        android:layout_alignParentBottom="true"
+        android:text="@string/exitbuttontext" />
+
+    <Button
+        android:id="@+id/manageButton"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/exitButton"
+        android:layout_alignLeft="@+id/exitButton"
+        android:layout_marginBottom="20dp"
+        android:text="@string/managetext" />
+
+    <Button
+        android:id="@+id/singleButton"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/battleButton"
+        android:layout_below="@+id/battleButton"
+        android:layout_marginTop="17dp"
+        android:text="@string/single_label" />
+
+</RelativeLayout>
